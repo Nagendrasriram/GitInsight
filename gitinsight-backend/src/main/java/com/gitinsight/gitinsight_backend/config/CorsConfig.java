@@ -41,7 +41,10 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://git-insight-xi.vercel.app")
+                        .allowedOrigins(
+                                "https://git-insight-eosin.vercel.app",
+                                "http://localhost:5173"   // keep this for local dev
+                        )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
