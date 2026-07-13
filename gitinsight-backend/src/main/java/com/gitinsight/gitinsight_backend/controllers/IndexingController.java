@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/index")
-@CrossOrigin(origins = "*")
 public class IndexingController {
 
     private static final Logger log = LoggerFactory.getLogger(IndexingController.class);

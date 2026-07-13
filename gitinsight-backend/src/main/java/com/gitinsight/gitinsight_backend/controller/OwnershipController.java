@@ -18,7 +18,6 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
 public class OwnershipController {
 
     private static final Logger log = LoggerFactory.getLogger(OwnershipController.class);
@@ -144,7 +143,6 @@ public class OwnershipController {
 //
 //@RestController
 //@RequestMapping("/api/repositories/{repositoryId}/ownership")
-//@CrossOrigin(origins = "*")
 //public class OwnershipController {
 //
 //    private final OwnershipRepository ownershipRepository;

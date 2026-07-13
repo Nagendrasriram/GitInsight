@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
 public class ChatController {
 
     private final ChatService chatService;
@@ -27,7 +26,6 @@ public class ChatController {
 //
 //@RestController
 //@RequestMapping("/api/chat")
-//@CrossOrigin(origins = "*")
 //public class ChatController {
 //
 //    private final ChatService chatService;

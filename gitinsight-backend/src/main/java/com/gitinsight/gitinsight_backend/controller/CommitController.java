@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/repositories/{repositoryId}/commits")
-@CrossOrigin(origins = "*")
 public class CommitController {
 
     private final CommitRepository commitRepository;

@@ -19,7 +19,6 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/repositories")
-@CrossOrigin(origins = "*")
 public class RepositoryController {
 
     private static final Logger log = LoggerFactory.getLogger(RepositoryController.class);
@@ -244,7 +243,6 @@ public class RepositoryController {
 //
 //@RestController
 //@RequestMapping("/api/repositories")
-//@CrossOrigin(origins = "*")
 //public class RepositoryController {
 //
 //    private static final Logger log = LoggerFactory.getLogger(RepositoryController.class);
@@ -442,7 +440,6 @@ public class RepositoryController {
 //
 //@RestController
 //@RequestMapping("/api/repositories")
-//@CrossOrigin(origins = "*")
 //public class RepositoryController {
 //
 //    private static final Logger log = LoggerFactory.getLogger(RepositoryController.class);
@@ -603,7 +600,6 @@ public class RepositoryController {
 //
 //@RestController
 //@RequestMapping("/api/repositories")
-//@CrossOrigin(origins = "*")
 //public class RepositoryController {
 //
 //    private static final Logger log = LoggerFactory.getLogger(RepositoryController.class);
@@ -747,7 +743,6 @@ public class RepositoryController {
 //
 //@RestController
 //@RequestMapping("/api/repositories")
-//@CrossOrigin(origins = "*")
 //public class RepositoryController {
 //
 //    private static final Logger log = LoggerFactory.getLogger(RepositoryController.class);
@@ -874,7 +869,6 @@ public class RepositoryController {
 //
 //@RestController
 //@RequestMapping("/api/repositories")
-//@CrossOrigin(origins = "*")
 //public class RepositoryController {
 //
 //    private final GitRepositoryRepository repositoryDataAccessor;
@@ -936,7 +930,6 @@ public class RepositoryController {
 //
 //@RestController
 //@RequestMapping("/api/repositories")
-//@CrossOrigin(origins = "*") // This allows our future React app to talk to this server without security blockages
 //public class RepositoryController {
 //
 //    private final GitRepositoryRepository repositoryDataAccessor;

@@ -14,7 +14,6 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api") // FIX: Simplified this so both methods route correctly
-@CrossOrigin(origins = "*")
 public class ContributorController {
 
     private final ContributorRepository contributorRepository;
