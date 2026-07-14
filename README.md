@@ -262,7 +262,6 @@ This combination positions GitInsight AI closer to an **AI engineering assistant
 
 ## 🌐 Live Demo
 
-Your deployed project is available here:
 
 🚀 **GitInsight AI Live Demo:** [https://git-insight-eosin.vercel.app/](https://git-insight-eosin.vercel.app/)
 
